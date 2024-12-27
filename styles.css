@@ -1,0 +1,158 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.theme-toggle {
+    margin: 10px 0;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.category {
+    background: #007bff;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+}
+
+.category:hover {
+    background: #0056b3;
+}
+
+.button {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Light Theme */
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header.light {
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+nav.light {
+    background-color: #dddddd;
+    color: #000000;
+}
+
+.category.light {
+    background: #dddddd;
+    color: #000000;
+}
+
+.category.light:hover {
+    background: #bbbbbb;
+}
+
+/* Dark Theme */
+body.dark {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+header.dark {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+nav.dark {
+    background-color: #444444;
+    color: #ffffff;
+}
+
+.category.dark {
+    background: #444444;
+    color: #ffffff;
+}
+
+.category.dark:hover {
+    background: #555555;
+}
